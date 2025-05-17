@@ -5,3 +5,4 @@ package-lock.json
 dist
 server/uploads/*
 !server/uploads/.gitkeep
+.idea
