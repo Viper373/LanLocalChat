@@ -40,6 +40,7 @@ RUN mkdir -p /app/server/uploads
 
 # 暴露端口
 EXPOSE 13050
+EXPOSE 443
 
 # 啟動服務
 CMD ["sh", "-c", "ls -la && npm start"]  # 啟動時顯示文件列表 
